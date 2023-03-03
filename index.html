@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        </title>
+    
+        <style>
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                width: 60%;
+                margin: 0% 20% 0% 20%;
+                border: 1px solid black;
+            }
+            .invoice-boxtable{
+                width: 100%;
+                line-height:inherit;
+                text-align:left;
+            }
+            .invoice-boxtable td{
+                padding: 5px;
+                vertical-align:  top;
+                /* border: 1px;
+                border-color: black;
+                border-style: solid; */
+                width: 50%;
+            }
+            .invoice-boxtabletr td:nth-child(2) {
+                text-align: right;
+            }
+
+            .taxinvoice-details {
+                color: red;
+            }
+
+            .bill-details {
+                text-align: right;
+            }
+
+        </style>
+
+</head>
+<body>
+    <div>
+        <table class="invoice-boxtable">
+            <tr>
+                <td> logo</td>
+                <td class="taxinvoice-details">
+                    <p>Tax Invoice date: ________________ </p>
+                    <p>Tax Invoice #: TP061</p>
+                </td>
+            </tr>
+        </table>
+        <table class="invoice-boxtable">
+            <tr>
+                <td class="supply-details">
+                    <p style="color: red;"><u>Supply details</u></p>
+                    <p style="color: red;">Name - Times Internet Limited</p>
+                    <p>Plot 391, Udyog Vihar, Phase 3</p>
+                    <p>Gugaon Haryana - 122016</p>
+                    <p style="color: red;">GSTIN #: 06AABCT1559M1Z3</p>
+                    <p style="color: red;">Whether GST Payable on</p>
+                    <p style="color: red;">reverse charge basis - No</p>
+                </td>
+                <td class="bill-details">
+                    <p>Created:- 2022-12-31</p>
+                    <p style="color: red;"><u>Bill to</u></p>
+                    <p>Name:- Mohd Ashif Ali</p>
+                    <p>Mail id :- ali.mohdasha@gmail.com</p>
+                    <p>Mobile No :- 7533080063</p>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
